@@ -1,0 +1,38 @@
+{%extends "layout.html"%}
+
+{%block main_body%}
+<div class="review-content">
+
+    <h5 style="text-align: center;">{{name}}</h5>
+<p style="margin: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Veritatis sed atque pariatur repudiandae ducimus nesciunt perferendis 
+    nam accusantium, dolorum iusto, labore ratione consequatur tempora architecto? Perferendis porro vero 
+    commodi expedita! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, voluptas delectus a odit officia debitis odio ratione alias blanditiis mollitia architecto illo ipsam atque possimus aliquid sint ea consequuntur! Nesciunt labore dolores nihil! Nesciunt, nobis. Vero, vel nisi. Nihil fugiat id placeat corrupti dolor necessitatibus iusto eligendi. Reiciendis dolores numquam reprehenderit praesentium accusantium vel laborum quae id, fuga dolore voluptatum animi aliquid doloribus, eaque deserunt amet! Dolor officiis harum ducimus. Suscipit similique 
+    necessitatibus distinctio enim ratione officiis dolores adipisci, 
+    iste in nihil error odit maiores aspernatur delectus provident unde expedita.</p>
+
+<div class="row">
+    <div class="col-lg-6">
+    <h6 style="font-size: 20px; margin-top: 2em; margin-left: 2em;">BOOK DETAILS</h6>
+    <ul>
+        <li>ISBN: {{isbn}}</li>
+        <li>LANGUAGE: ENGLISH</li>
+        <li>AUTHOR: {{author}}</li>
+        <li>YEAR: {{year}}</li>
+        <li>COPYRIGHT: {{year}}</li>
+
+
+    </ul>
+</div>
+<div class="col-lg-6">
+    <legend>Add a written Review</legend>
+    <form action="">
+        <input style="display: block;" name="review" placeholder="Tell what you like or dislike about this book" type="text">
+        <button>Submit</button>
+    </form>
+</div>
+</div>
+</div>
+
+
+{%endblock%}
